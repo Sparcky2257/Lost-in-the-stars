@@ -1,0 +1,8 @@
+.vscode/*
+bin/*
+obj/*
+saves/*
+out/*
+.DS_Store
+CLI-Gamengine.sln
+Lost-in-the-stars.sln
