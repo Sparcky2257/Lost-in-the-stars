@@ -17,9 +17,9 @@ public class CLIInt
         //dont edit top
         //replace text by your game name and name by yores
         ClIMiscellaneous.Creditsdata.Add("MC");
-        //ClIMiscellaneous.Creditsdata.Add("====text====");
+        ClIMiscellaneous.Creditsdata.Add("=Lost-in-the-stars=");
         ClIMiscellaneous.Creditsdata.Add("DMC");
-        //ClIMiscellaneous.Creditsdata.Add("name");
+        ClIMiscellaneous.Creditsdata.Add("Sparcky Ancientpack");
 
         //Console.WriteLine(ClIMiscellaneous.Creditsdata.Count);
         //CLISettings.Debug = true; //this just for testing
@@ -58,7 +58,8 @@ public class CLIConfig
     //-------------------------------------------------------------------------------------------------------------------------------------------------------------------  
     public static void bootlogo()
     {
-        CLILogo.bootlogo1();
+        //CLILogo.bootlogo1();
+        LISLogo.bootlogo1();
     }
     // main menu
     public static void MainMenu()
